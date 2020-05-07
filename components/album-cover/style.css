@@ -1,0 +1,36 @@
+.album-cover {
+    width: 198px;
+    height: 198px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    background-image: url('https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/0/1/1/4011c51c6530e704931b528ba297f61f.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.album-cover .overlay{
+    height: 100%;
+    background-color: rgba(158, 156, 156, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.album-cover .icons {
+    display: flex;
+    align-items: center;
+}
+
+.album-cover .play{
+    font-size: 45px;
+    padding: 0 35px;
+}
+
+.album-cover:hover .overlay{
+    opacity: 1;
+}
+
+
+
